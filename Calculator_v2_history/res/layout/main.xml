@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:inputType="number"
+            />
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button 
+            android:id="@+id/one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clicked"
+            android:layout_weight="1"
+            android:text="@string/one"
+            />
+        <Button 
+            android:id="@+id/two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clicked"
+            android:layout_weight="1"
+            android:text="@string/two"
+            />
+        <Button 
+            android:id="@+id/three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clicked"
+            android:layout_weight="1"
+            android:text="@string/three"
+            />
+        </TableRow>
+        <TableRow>
+        <Button 
+            android:id="@+id/four"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clicked"
+            android:layout_weight="1"
+            android:text="@string/four"
+            />
+        <Button 
+            android:id="@+id/five"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clicked"
+            android:layout_weight="1"
+            android:text="@string/five"
+            />
+        <Button 
+            android:id="@+id/six"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clicked"
+            android:layout_weight="1"
+            android:text="@string/six"
+            />
+        </TableRow>
+        <TableRow>
+        <Button 
+            android:id="@+id/seven"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clicked"
+            android:layout_weight="1"
+            android:text="@string/seven"
+            />
+        <Button 
+            android:id="@+id/eight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clicked"
+            android:layout_weight="1"
+            android:text="@string/eight"
+            />
+        <Button 
+            android:id="@+id/nine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clicked"
+            android:layout_weight="1"
+            android:text="@string/nine"
+            />
+        </TableRow>
+        <TableRow>
+        <Button 
+            android:id="@+id/zero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clicked"
+            android:layout_weight="1"
+            android:text="@string/zero"
+            />
+        
+         <Button 
+            android:id="@+id/dot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clicked_dot"
+            android:layout_weight="1"
+            android:text="@string/dot"
+            />
+        
+        <Button 
+            android:id="@+id/add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clicked_plus"
+            android:layout_weight="1"
+            android:text="@string/add"
+            />
+        
+        
+        </TableRow>
+         <TableRow >
+             
+       
+        <Button 
+            android:id="@+id/subtract"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clicked_minus"
+            android:layout_weight="1"
+            android:text="@string/subtract"
+            />
+        
+          <Button 
+            android:id="@+id/multiply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clicked_multiply"
+            android:layout_weight="1"
+            android:text="@string/multiply"
+            />
+          
+           <Button 
+            android:id="@+id/divide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clicked_divide"
+            android:layout_weight="1"
+            android:text="@string/divide"
+            />
+        
+          <Button 
+            android:id="@+id/equal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clicked_eq"
+            android:layout_weight="1"
+            android:text="@string/equal"
+            />
+        =
+    </TableRow>
+    
+    <TableRow>
+        
+        <Button 
+         	android:id="@+id/history"
+         	android:layout_width="wrap_content"
+         	android:layout_height="wrap_content"
+         	android:onClick="clicked_history"
+         	android:layout_weight="1"
+         	android:text="@string/history"   
+         />
+              
+              
+    </TableRow>
+
+      
+    
+
+</TableLayout>
