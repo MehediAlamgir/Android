@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">CurrencyConverterActivity!</string>
+    <string name="app_name">CurrencyConverter</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="select">SELECT</string>
+    <string name="amount">Amount</string>
+    <string name="result">Result</string>
+    <string name="showResult">Show Result</string>
+    
+    <string-array name="currency">
+        
+        <item>Select Currency</item>
+        <item>Dollar</item>
+        <item>Taka</item>
+<!--   <item>Pound</item>       
+        <item>Euro</item>
+        <item>Rupee</item>
+-->        
+        
+    </string-array>
+
+</resources>

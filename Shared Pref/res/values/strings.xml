@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, SharedPrefActivity!</string>
+    <string name="app_name">Shared Pref</string>
+    <string name="btn_raw">Raw</string>
+    <string name="btn_read">Read</string>
+    <string name="btn_write">write</string>
+    
+	
+</resources>

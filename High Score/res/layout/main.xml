@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/scoreText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="12dp"
+        android:layout_y="4dp"
+        android:text="@string/scoreText" />
+    
+    
+    <TextView
+        android:id="@+id/highScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="100dp"
+        android:layout_y="4dp"
+        android:text="@string/highScore" />
+    
+    
+      <TextView
+        android:id="@+id/randValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="106dp"
+        android:layout_y="186dp"
+        android:text="@string/randvalue" />
+    <Button
+        android:id="@+id/play"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="-2dp"
+        android:layout_y="363dp"
+        android:text="@string/play" />
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="-3dp"
+        android:layout_y="428dp"
+        android:text="@string/reset" />
+
+</AbsoluteLayout>
